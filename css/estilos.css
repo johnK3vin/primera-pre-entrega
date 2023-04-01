@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body { 
+    background-color: aquamarine;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div label {
+    margin: 5px;
+    font-size: 2rem;
+}
+
+div input {
+    margin: 5px;
+    border: none;
+}
+
+input:hover {
+    background-color: green;
+    color: white;
+}
+
+div button {
+    margin: 5px;
+    border: none;
+}
+
+button:hover {
+    background-color: brown;
+    color: white;
+}
+
